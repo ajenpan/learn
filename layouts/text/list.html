@@ -1,0 +1,17 @@
+{{define "main"}}
+
+<article>
+    <header>
+        <h1>{{.Title}}</h1>
+    </header>
+</article>
+
+<aside class="flex-ns flex-wrap justify-around mt5">
+    {{ range .Pages }}
+    {{/*  <div class="relative w-100 w-30-l mb4 bg-white">
+        {{ .Render "summary" }}
+    </div>  */}}
+    {{ end }}
+</aside>
+
+{{end}}
