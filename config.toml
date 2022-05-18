@@ -11,7 +11,7 @@ themesDir = "themes"
 
 # website title
 # 网站标题
-title = "LoveIt"
+title = "LearnIt"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -24,207 +24,6 @@ enableGitInfo = false
 enableEmoji = true
 
 [languages]
-[languages.en]
-weight = 1
-# language code
-languageCode = "en"
-# language name
-languageName = "English"
-# whether to include Chinese/Japanese/Korean
-hasCJKLanguage = false
-# default amount of posts in each pages
-paginate = 12
-# [UA-XXXXXXXX-X] google analytics code
-googleAnalytics = ""
-# copyright description used only for seo schema
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-# Menu config
-[languages.en.menu]
-[[languages.en.menu.main]]
-identifier = "posts"
-# you can add extra information before the name (HTML format is supported), such as icons
-pre = ""
-# you can add extra information after the name (HTML format is supported), such as icons
-name = "Posts"
-post = ""
-url = "/posts/"
-# title will be shown when you hover on this menu link.
-title = ""
-weight = 1
-[[languages.en.menu.main]]
-identifier = "tags"
-name = "Tags"
-post = ""
-pre = ""
-title = ""
-url = "/tags/"
-weight = 2
-[[languages.en.menu.main]]
-identifier = "categories"
-name = "Categories"
-post = ""
-pre = ""
-title = ""
-url = "/categories/"
-weight = 3
-[[languages.en.menu.main]]
-identifier = "documentation"
-name = "Docs"
-post = ""
-pre = ""
-title = ""
-url = "/categories/documentation/"
-weight = 4
-[[languages.en.menu.main]]
-identifier = "about"
-name = "About"
-post = ""
-pre = ""
-title = ""
-url = "/about/"
-weight = 5
-[[languages.en.menu.main]]
-identifier = "github"
-name = ""
-post = ""
-pre = "<i class='fab fa-github fa-fw'></i>"
-title = "GitHub"
-url = "https://github.com/dillonzq/LoveIt"
-weight = 6
-[languages.en.params]
-# site description
-description = "About LoveIt Theme"
-# site keywords
-keywords = ["Theme", "Hugo"]
-# App icon config
-[languages.en.params.app]
-# optional site title override for the app when added to an iOS home screen or Android launcher
-title = "LoveIt"
-# whether to omit favicon resource links
-noFavicon = false
-# modern SVG favicon to use in place of older style .png and .ico files
-svgFavicon = ""
-# Android browser theme color
-themeColor = "#ffffff"
-# Safari mask icon color
-iconColor = "#5bbad5"
-# Windows v8-10 tile color
-tileColor = "#da532c"
-# Search config
-[languages.en.params.search]
-enable = true
-# type of search engine ("lunr", "algolia")
-type = "algolia"
-# max index length of the chunked content
-contentLength = 4000
-# placeholder of the search bar
-placeholder = ""
-# max number of results length
-maxResultLength = 10
-# snippet length of the result
-snippetLength = 30
-# HTML tag name of the highlight part in results
-highlightTag = "em"
-# whether to use the absolute URL based on the baseURL in search index
-absoluteURL = false
-[languages.en.params.search.algolia]
-appID = "PASDMWALPK"
-index = "index.en"
-searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-# Home page config
-[languages.en.params.home]
-# amount of RSS pages
-rss = 10
-# Home page profile
-[languages.en.params.home.profile]
-enable = true
-# Gravatar Email for preferred avatar in home page
-gravatarEmail = ""
-# URL of avatar shown in home page
-avatarURL = "/images/avatar.png"
-# title shown in home page (HTML format is supported)
-title = ""
-# subtitle shown in home page
-subtitle = "A Clean, Elegant but Advanced Hugo Theme"
-# whether to use typeit animation for subtitle
-typeit = true
-# whether to show social links
-social = true
-# disclaimer (HTML format is supported)
-disclaimer = ""
-# Home page posts
-[languages.en.params.home.posts]
-enable = true
-# special amount of posts in each home posts page
-paginate = 6
-# Social config in home page
-[languages.en.params.social]
-Angellist = ""
-Bandcamp = ""
-Behance = ""
-Bilibili = ""
-Bitbucket = ""
-Codepen = ""
-Deviantart = ""
-Devto = ""
-Douban = ""
-Dribbble = ""
-Email = "xxxx@xxxx.com"
-Facebook = "xxxx"
-Fivehundredpx = ""
-Flickr = ""
-Foursquare = ""
-FreeCodeCamp = ""
-GitHub = "xxxx"
-Gitea = ""
-Gitlab = ""
-Goodreads = ""
-Googlescholar = ""
-Hackernews = ""
-Instagram = "xxxx"
-Jsfiddle = ""
-Keybase = ""
-Kickstarter = ""
-Lastfm = ""
-Linkedin = ""
-Matrix = ""
-Medium = ""
-Mix = ""
-Odnoklassniki = ""
-Patreon = ""
-Paypal = ""
-Pinterest = ""
-Quora = ""
-RSS = true
-Reddit = ""
-Researchgate = ""
-Skype = ""
-Slidershare = ""
-Snapchat = ""
-Soundcloud = ""
-Spotify = ""
-Stackoverflow = ""
-Steam = ""
-Strava = ""
-Telegram = "xxxx"
-Thingiverse = ""
-Tumblr = ""
-Twitch = ""
-Twitter = "xxxx"
-VK = ""
-Vine = ""
-Weibo = ""
-Whatsapp = ""
-Wordpress = ""
-XMPP = ""
-Xing = ""
-Youtubechannel = ""
-Youtubecustom = ""
-Youtubelegacy = "xxxx"
-Zhihu = ""
-[languages.en.params.social.Mastodon]
-id = "@xxxx"
-prefix = "https://mastodon.technology/"
 
 [languages.zh-cn]
 weight = 2
@@ -242,16 +41,16 @@ googleAnalytics = ""
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 # 菜单配置
 [languages.zh-cn.menu]
-[[languages.zh-cn.menu.main]]
-identifier = "posts"
-# 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-pre = ""
-# 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
-name = "日志"
-post = ""
-title = ""
-url = "/posts/"
-weight = 1
+# [[languages.zh-cn.menu.main]]
+# identifier = "posts"
+# # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+# pre = ""
+# # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+# name = "日志"
+# post = ""
+# title = ""
+# url = "/posts/"
+# weight = 1
 [[languages.zh-cn.menu.main]]
 identifier = "text"
 # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
@@ -262,14 +61,14 @@ post = ""
 title = ""
 url = "/text/"
 weight = 1
-[[languages.zh-cn.menu.main]]
-identifier = "tags"
-name = "标签"
-post = ""
-pre = ""
-title = ""
-url = "/tags/"
-weight = 2
+# [[languages.zh-cn.menu.main]]
+# identifier = "tags"
+# name = "标签"
+# post = ""
+# pre = ""
+# title = ""
+# url = "/tags/"
+# weight = 2
 [[languages.zh-cn.menu.main]]
 identifier = "categories"
 name = "分类"
@@ -293,14 +92,14 @@ pre = ""
 title = ""
 url = "/about/"
 weight = 5
-[[languages.zh-cn.menu.main]]
-identifier = "github"
-name = ""
-post = ""
-pre = "<i class='fab fa-github fa-fw'></i>"
-title = "GitHub"
-url = "https://github.com/dillonzq/LoveIt"
-weight = 6
+# [[languages.zh-cn.menu.main]]
+# identifier = "github"
+# name = ""
+# post = ""
+# pre = "<i class='fab fa-github fa-fw'></i>"
+# title = "GitHub"
+# url = "https://github.com/dillonzq/LoveIt"
+# weight = 6
 [languages.zh-cn.params]
 # 网站描述
 description = "关于 LoveIt 主题"
@@ -347,7 +146,7 @@ searchKey = "b42948e51daaa93df92381c8e2ac0f93"
 rss = 10
 # 主页个人信息
 [languages.zh-cn.params.home.profile]
-enable = true
+enable = false
 # Gravatar 邮箱，用于优先在主页显示的头像
 gravatarEmail = ""
 # 主页显示头像的 URL
@@ -372,20 +171,20 @@ paginate = 6
 Angellist = ""
 Bandcamp = ""
 Behance = ""
-Bilibili = "xxxx"
+Bilibili = ""
 Bitbucket = ""
 Codepen = ""
 Deviantart = ""
-Devto = "xxxx"
-Douban = "xxxx"
+Devto = ""
+Douban = ""
 Dribbble = ""
-Email = "xxxx@xxxx.com"
+Email = "ajenpan@gmail.com"
 Facebook = ""
 Fivehundredpx = ""
 Flickr = ""
 Foursquare = ""
 FreeCodeCamp = ""
-GitHub = "xxxx"
+GitHub = ""
 Gitea = ""
 Gitlab = ""
 Goodreads = ""
@@ -406,208 +205,12 @@ Patreon = ""
 Paypal = ""
 Pinterest = ""
 Quora = ""
-RSS = true
+RSS = false
 Reddit = ""
 Researchgate = ""
 Skype = ""
 Slidershare = ""
 Snapchat = ""
-Soundcloud = ""
-Spotify = ""
-Stackoverflow = ""
-Steam = "xxxx"
-Strava = ""
-Telegram = ""
-Thingiverse = ""
-Tumblr = ""
-Twitch = ""
-Twitter = ""
-VK = ""
-Vine = ""
-Weibo = "xxxx"
-Whatsapp = ""
-Wordpress = ""
-XMPP = ""
-Xing = ""
-Youtubechannel = ""
-Youtubecustom = ""
-Youtubelegacy = ""
-Zhihu = "xxxx"
-
-[languages.fr]
-weight = 3
-# language code
-languageCode = "fr"
-# language name
-languageName = "Français"
-# whether to include Chinese/Japanese/Korean
-hasCJKLanguage = false
-# default amount of posts in each pages
-paginate = 12
-# [UA-XXXXXXXX-X] google analytics code
-googleAnalytics = ""
-# copyright description used only for seo schema
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-# Menu config
-[languages.fr.menu]
-[[languages.fr.menu.main]]
-identifier = "posts"
-name = "Postes"
-post = ""
-pre = ""
-title = ""
-url = "/posts/"
-weight = 1
-[[languages.fr.menu.main]]
-identifier = "tags"
-name = "Balises"
-post = ""
-pre = ""
-title = ""
-url = "/tags/"
-weight = 2
-[[languages.fr.menu.main]]
-identifier = "categories"
-name = "Catégories"
-post = ""
-pre = ""
-title = ""
-url = "/categories/"
-weight = 3
-[[languages.fr.menu.main]]
-identifier = "documentation"
-name = "Docs"
-post = ""
-pre = ""
-title = ""
-url = "/categories/documentation/"
-weight = 4
-[[languages.fr.menu.main]]
-identifier = "about"
-name = "À propos"
-pre = ""
-title = ""
-url = "/about/"
-weight = 5
-[[languages.fr.menu.main]]
-identifier = "github"
-name = ""
-post = ""
-pre = "<i class='fab fa-github fa-fw'></i>"
-title = "GitHub"
-url = "https://github.com/dillonzq/LoveIt"
-weight = 6
-[languages.fr.params]
-# site description
-description = "À propos du thème LoveIt"
-# site keywords
-keywords = ["Thème", "Hugo"]
-# App icon config
-[languages.fr.params.app]
-# optional site title override for the app when added to an iOS home screen or Android launcher
-title = "LoveIt"
-# whether to omit favicon resource links
-noFavicon = false
-# modern SVG favicon to use in place of older style .png and .ico files
-svgFavicon = ""
-# Android browser theme color
-themeColor = "#ffffff"
-# Safari mask icon color
-iconColor = "#5bbad5"
-# Windows v8-10 tile color
-tileColor = "#da532c"
-# Search config
-[languages.fr.params.search]
-enable = true
-# type of search engine ("lunr", "algolia")
-type = "algolia"
-# max index length of the chunked content
-contentLength = 4000
-# placeholder of the search bar
-placeholder = ""
-# max number of results length
-maxResultLength = 10
-# snippet length of the result
-snippetLength = 30
-# HTML tag name of the highlight part in results
-highlightTag = "em"
-# whether to use the absolute URL based on the baseURL in search index
-absoluteURL = false
-[languages.fr.params.search.algolia]
-appID = "PASDMWALPK"
-index = "index.fr"
-searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-# Home page config
-[languages.fr.params.home]
-# amount of RSS pages
-rss = 10
-# Home page profile
-[languages.fr.params.home.profile]
-enable = true
-# Gravatar Email for preferred avatar in home page
-gravatarEmail = ""
-# URL of avatar shown in home page
-avatarURL = "/images/avatar.png"
-# title shown in home page (HTML format is supported)
-title = ""
-# subtitle shown in home page
-subtitle = "Un thème Hugo simple, élégant et efficace"
-# whether to use typeit animation for subtitle
-typeit = true
-# whether to show social links
-social = true
-# disclaimer (HTML format is supported)
-disclaimer = ""
-# Home page posts
-[languages.fr.params.home.posts]
-enable = true
-# special amount of posts in each home posts page
-paginate = 6
-# Social config in home page
-[languages.fr.params.social]
-Angellist = ""
-Bandcamp = ""
-Behance = ""
-Bilibili = ""
-Bitbucket = ""
-Codepen = ""
-Deviantart = ""
-Devto = ""
-Douban = ""
-Dribbble = "xxxx"
-Email = "xxxx@xxxx.com"
-Facebook = ""
-Fivehundredpx = ""
-Flickr = ""
-Foursquare = ""
-FreeCodeCamp = ""
-GitHub = "xxxx"
-Gitea = ""
-Gitlab = ""
-Goodreads = ""
-Googlescholar = ""
-Hackernews = "xxxx"
-Instagram = ""
-Jsfiddle = ""
-Keybase = ""
-Kickstarter = ""
-Lastfm = ""
-Linkedin = "xxxx"
-Mastodon = ""
-Matrix = ""
-Medium = ""
-Mix = ""
-Odnoklassniki = ""
-Patreon = ""
-Paypal = ""
-Pinterest = ""
-Quora = ""
-RSS = true
-Reddit = ""
-Researchgate = ""
-Skype = ""
-Slidershare = ""
-Snapchat = "xxxx"
 Soundcloud = ""
 Spotify = ""
 Stackoverflow = ""
@@ -617,7 +220,7 @@ Telegram = ""
 Thingiverse = ""
 Tumblr = ""
 Twitch = ""
-Twitter = "xxxx"
+Twitter = ""
 VK = ""
 Vine = ""
 Weibo = ""
@@ -696,7 +299,7 @@ copyright = true
 author = true
 # site creation time
 # 网站创立年份
-since = 2019
+since = 2022
 # ICP info only in China (HTML format is supported)
 # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
 icp = ""
@@ -777,7 +380,7 @@ auto = true
 [params.page.code]
 # whether to show the copy button of the code block
 # 是否显示代码块的复制按钮
-copy = true
+copy = false
 # the maximum number of lines of displayed code by default
 # 默认展开显示的代码行数
 maxShownLines = 10
@@ -831,11 +434,11 @@ Blogger = false
 Buffer = false
 Digg = false
 Evernote = false
-Facebook = true
+Facebook = false
 Flipboard = false
-HackerNews = true
+HackerNews = false
 Instapaper = false
-Line = true
+Line = false
 Linkedin = false
 Mix = false
 Myspace = false
@@ -850,14 +453,14 @@ Trello = false
 Tumblr = false
 Twitter = false
 VK = false
-Weibo = true
+Weibo = false
 Whatsapp = false
 Xing = false
 enable = false
 # Comment config
 # 评论系统设置
 [params.page.comment]
-enable = true
+enable = false
 # Disqus comment config (https://disqus.com/)
 # Disqus 评论系统设置 (https://disqus.com/)
 [params.page.comment.disqus]
@@ -956,7 +559,7 @@ images = []
 # 出版者信息
 [params.page.seo.publisher]
 logoUrl = "/images/avatar.png"
-name = "xxxx"
+name = "ajen"
 
 # TypeIt config
 # TypeIt 配置

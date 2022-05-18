@@ -1,6 +1,7 @@
 {{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
 
 {{- define "content" -}}
+
     {{- $params := .Scratch.Get "params" -}}
 
     {{- $toc := $params.toc -}}
@@ -28,7 +29,7 @@
         {{- end -}}
 
         {{- /* Meta */ -}}
-        <div class="post-meta">
+        {{/*  <div class="post-meta" >
             <div class="post-meta-line">
                 {{- $author := $params.author | default .Site.Author.name | default (T "author") -}}
                 {{- $authorLink := $params.authorlink | default .Site.Author.link | default .Site.Home.RelPermalink -}}
@@ -61,7 +62,7 @@
                     </span>&nbsp;
                 {{- end -}}
             </div>
-        </div>
+        </div>  */}}
 
         {{- /* Featured image */ -}}
         {{- $image := $params.featuredimage -}}
@@ -75,7 +76,7 @@
         {{- end -}}
 
         {{- /* Static TOC */ -}}
-        {{- if ne $toc.enable false -}}
+        {{/*  {{- if ne $toc.enable false -}}
             <div class="details toc" id="toc-static"  data-kept="{{ if $toc.keepStatic }}true{{ end }}">
                 <div class="details-summary toc-title">
                     <span>{{ T "contents" }}</span>
@@ -85,7 +86,7 @@
                     {{- dict "Content" .TableOfContents "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
                 </div>
             </div>
-        {{- end -}}
+        {{- end -}}  */}}
 
         {{- /* Content */ -}}
         <div class="content" id="content">
@@ -100,9 +101,6 @@
             </article>
             {{ end }}
         </div>
-
-
-
 
         {{- /* Footer */ -}}
         {{- partial "single/footer.html" . -}}

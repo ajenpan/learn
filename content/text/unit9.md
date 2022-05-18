@@ -1,7 +1,6 @@
 ---
 categories:
-- class
-
+  - class
 introduction: 第9单元
 lessons:
   - 33
@@ -10,5 +9,6 @@ lessons:
   - 36
 tags: [课文]
 title: 第9单元
+weight: 9
 ---
 

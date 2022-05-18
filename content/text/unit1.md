@@ -1,7 +1,6 @@
 ---
 categories:
   - class
-
 introduction: 第1单元
 lessons:
   - 1
@@ -10,4 +9,5 @@ lessons:
   - 4
 tags: [课文]
 title: 第1单元
+weight: 1
 ---
