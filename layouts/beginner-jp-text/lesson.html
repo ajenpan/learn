@@ -5,9 +5,15 @@
         第{{$.lessonIndex}} 课 {{ $title | safeHTML }}
     </h2>
 
-    <audio id="lessonplayer" controls>
+    {{/*  <audio id="lessonplayer" controls style="width:100%;">
         <source src="/audio/lesson/l{{$.lessonIndex}}.mp3" type="audio/mpeg" />
-    </audio>
+    </audio>  */}}
+    {{/*  <div> 
+        <button onclick="document.getElementById('lessonplayer').play()">Play</button> 
+        <button onclick="document.getElementById('lessonplayer').pause()">Pause</button> 
+        <button onclick="document.getElementById('lessonplayer').volume += 0.1">Vol +</button> 
+        <button onclick="document.getElementById('lessonplayer').volume -= 0.1">Vol -</button> 
+    </div>  */}}
 
     <h3 class="f3">基本課文</h3>
 
@@ -35,8 +41,7 @@
             <p> {{ .basicct | markdownify }} </p>
         </div>
     </div>
-
-    {{/* here is application of the text and it's transation */}}
+    
     <h3 class="f3"> 应用課文 </h3>
     <div class="advanced_lesson" id="al{{$.lessonIndex}}">
         {{ replaceRE `!(.*?)\((.*?)\)` "<ruby>$1<rt>$2</rt></ruby>" .context | markdownify }}
@@ -51,5 +56,3 @@
     </div>
 
 </article>
-
-{{/* <button class="btn btn-default btn-sm starttranslate" disabled="false">开始翻译</button> */}}
