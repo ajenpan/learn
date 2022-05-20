@@ -1,7 +1,8 @@
 {{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
 
 {{- define "content" -}}
-
+    {{ "<style>li {list-style-type: none;}</style>" | safeHTML}}
+    
     {{- $params := .Scratch.Get "params" -}}
 
     {{- $toc := $params.toc -}}
@@ -96,7 +97,7 @@
             {{ $lesson := index $.Site.Data.lessons (print "l" $lessonIndex)}}
             {{ $lesson = merge $lesson (dict "lessonIndex" $lessonIndex) }}
             <article id="text_{{$lessonIndex}}">
-                {{ template "text/lesson.html" $lesson }}
+                {{ template "beginner-jp-text/lesson.html" $lesson }}
                 <hr class="article-hr">
             </article>
             {{ end }}

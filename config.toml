@@ -41,26 +41,26 @@ googleAnalytics = ""
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 # 菜单配置
 [languages.zh-cn.menu]
-# [[languages.zh-cn.menu.main]]
-# identifier = "posts"
-# # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-# pre = ""
-# # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
-# name = "日志"
-# post = ""
-# title = ""
-# url = "/posts/"
-# weight = 1
 [[languages.zh-cn.menu.main]]
-identifier = "text"
+identifier = "showlove"
+# 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+pre = "<i class='fa-regular fa-heart'></i>"
+# 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+name = "520特别放送"
+post = ""
+title = ""
+url = "/showlove/"
+weight = 1
+[[languages.zh-cn.menu.main]]
+identifier = "beginner-jp-text"
 # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
 pre = ""
 # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
-name = "课文"
+name = "初级标准日语"
 post = ""
-title = ""
-url = "/text/"
-weight = 1
+title = "初级标准日语"
+url = "/beginner-jp-text/"
+weight = 2
 # [[languages.zh-cn.menu.main]]
 # identifier = "tags"
 # name = "标签"
@@ -121,7 +121,7 @@ iconColor = "#5bbad5"
 tileColor = "#da532c"
 # 搜索配置
 [languages.zh-cn.params.search]
-enable = true
+enable = false
 # 搜索引擎的类型 ("lunr", "algolia")
 type = "algolia"
 # 文章内容最长索引长度
@@ -154,7 +154,7 @@ avatarURL = "/images/avatar.png"
 # 主页显示的网站标题 (支持 HTML 格式)
 title = ""
 # 主页显示的网站副标题
-subtitle = "一个简洁、优雅且高效的 Hugo 主题"
+subtitle = "好好学习 天天向上"
 # 是否为副标题显示打字机动画
 typeit = true
 # 是否显示社交账号
@@ -270,7 +270,7 @@ mobileMode = "auto"
 logo = ""
 # title name
 # 标题名称
-name = "LoveIt"
+name = "LearnIt"
 # you can add extra information before the name (HTML format is supported), such as icons
 # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
 pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
@@ -279,7 +279,7 @@ pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
 post = ""
 # whether to use typeit animation for title name
 # 是否为标题显示打字机动画
-typeit = false
+typeit = true
 
 # Footer config
 # 页面底部信息配置
@@ -688,7 +688,7 @@ startLevel = 2
 [author]
 email = ""
 link = ""
-name = "xxxx"
+name = "ajen"
 
 # Sitemap config
 # 网站地图配置
